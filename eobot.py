@@ -14,7 +14,7 @@ async def on_message(meassage):
     if meassage.content.startswith("도움말"):
         await meassage.channel.send("말을 걸면 돼 간단하지? ㅎㅇ , ㅂ2 , 잘지냉? , 고마웡 , 잘지냉?")
         await meassage.channel.send("아프지망! , 뭐행!? , 심심행! , 뭐하징!? , 어휴!! , 그!? , 힘들엉! ,")
-        await meassage.channel.send(" 속상행! , 우울행! , 배고팡! , 잘장!-! 끝", '')
+        await meassage.channel.send("속상행! , 우울행! , 배고팡! , 잘장!-! 끝")
     if meassage.content.startswith("ㅎㅇ"):
         await meassage.channel.send("웅 안뇽~")
     if meassage.content.startswith("ㅂ2"):
